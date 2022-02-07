@@ -1,4 +1,4 @@
-package day11_Switch_Scanner.variablesTest;
+package day11_Switch_Scanner;
 
 import java.util.Scanner;
 
