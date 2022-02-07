@@ -1,0 +1,38 @@
+Q1: does the folder name (e.g.
+
+
+
+
+
+
+OPERATORS:
+    *Arithmetic Operators
+        -, +, /, * and modulus % (gives us the remainder)
+    * Unary Operators:
+        + positive, - negative
+        ++ increase value by 1 (we will use there certain loops)
+        -- decrease value by 1
+        ! not operator
+
+    *Assignment Operators
+        different between "=" (assigns a value) and "==" (checks if the statements are equal)
+
+        "+=" : a += 20; ----> a = a + 20; Shorthand Operators
+
+    * Relational Operators : When we use relational operators we use boolean
+        > greater than sign
+        < less than sign
+        >= greater equal
+        <= less than equal
+        == equal
+        != not equal
+
+    * Logical Operators
+        & And Operator, && Bitwise AND Operator
+        | Or Operator, || Bitwise OR Operator
+
+    * Control Flow Statements - Conditional Statements
+        if (condition) {do this} else { go here if it is false}
+        if (condition 1) - else if ( condition 2) else {}
+
+
