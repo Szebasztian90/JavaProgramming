@@ -5,24 +5,13 @@ public class AmazonFreeShipping {
 
         double totalPrice = 55.50;
 
-        if(totalPrice >= 25.5){
+        if (totalPrice >= 25.5) {
             System.out.println("FREE Shipping eligible. Your order total : $ " + totalPrice);
-        }else{
+        } else {
             System.out.println("NOT Eligible for free shipping : " + totalPrice);
         }
 
         System.out.println("Thanks for shopping with us !");
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
