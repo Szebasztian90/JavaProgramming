@@ -43,12 +43,12 @@ public class MyInfo {
         System.out.println("Enter your Street name: ");
         String streetName = input.nextLine();
 
-        System.out.println("fullName = " + fullName);
-        System.out.println("age = " + age);
-        System.out.println("gender = " + gender);
-        System.out.println("phone = " + phone);
-        System.out.println("address: " + building + " " + streetName + " " + city + " " + state + " " + zipCode);
-        System.out.println("school = " + school);
+        System.out.println("Full name = " + fullName);
+        System.out.println("Age: " + age);
+        System.out.println("Gender: " + gender);
+        System.out.println("Phone number: " + phone);
+        System.out.println("Address: \n\t" + building + " " + streetName + "\n\t" + city + ", " + state + " " + zipCode);
+        System.out.println("School : " + school);
 
 
 input.close();
@@ -67,7 +67,7 @@ input.close();
 			9. Enter your building number (int --> nextInt())  nextLine()
 			10. Enter your Street name ( nextLine() )
 		MAKE SURE USER CAN ENTER ALL THE INPUT
-		Display all the inputs that user entered in following order in sperate lines:
+		Display all the inputs that user entered in following order in operate lines:
 			1. full name
 			2. age
 			3. gender
