@@ -1,4 +1,4 @@
-package Day12_Scanner;
+package day11_Switch_Scanner.Day12_Scanner;
 
 public class GradeLevel {
     public static void main(String[] args) {

@@ -28,9 +28,7 @@ public class ScannerPractice1 {
         System.out.println("str = " + str);
 
 
-
-
-
+        input.close();
 
 
 

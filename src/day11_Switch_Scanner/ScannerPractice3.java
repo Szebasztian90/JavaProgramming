@@ -20,7 +20,7 @@ public class ScannerPractice3 {
         System.out.println("score = " + score);
         System.out.println("fullName = " + fullName);
 
-
+        input.close();
 
     }
 }

@@ -16,6 +16,7 @@ public class ScannerPractice2 {
         System.out.println("firstSentence = " + firstSentence);
         System.out.println("secondSentence = " + secondSentence);
 
+        input.close();
 
 
 
