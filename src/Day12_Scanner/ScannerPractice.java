@@ -1,4 +1,4 @@
-package day11_Switch_Scanner.Day12_Scanner;
+package Day12_Scanner;
 
 //import java.util.*;  //wild import: imports everything from the package
 import java.util.Scanner;
