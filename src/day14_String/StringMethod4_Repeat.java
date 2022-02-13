@@ -21,6 +21,15 @@ public class StringMethod4_Repeat {
 
         System.out.println( "FADY\n".repeat(15) );
 
+        System.out.println("--------------------------");
+
+        String name = "Java";
+
+      //  System.out.println(name.repeat(5));
+
+        System.out.println( (name +" ").repeat(5) ); // this is to include space
+
+
 
 
     }
