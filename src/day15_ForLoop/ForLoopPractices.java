@@ -43,7 +43,7 @@ public class ForLoopPractices {
         System.out.println();
         System.out.println("------------------------------");
 
-        for (char in = 'a'; in <= 'z'; in++  ){
+        for (char in = 'A'; in <= 'Z'; in++  ){
 
             System.out.print(in+ " ");
         }
