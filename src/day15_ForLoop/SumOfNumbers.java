@@ -31,7 +31,7 @@ public class SumOfNumbers {
         }
         System.out.println("total = " + total);
 
-
+scan.close();
 
 
 
