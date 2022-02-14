@@ -11,7 +11,7 @@ public class Reverse {
 
 
         for (int i = str.length()-1; i >=0 ; i--) { // i: index numbers of str (starting from last index to index 0)
-            result += str.charAt(i);
+            result += str.charAt(i); //adding each character to result
 
         }
 
