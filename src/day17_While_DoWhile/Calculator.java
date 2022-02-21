@@ -26,10 +26,5 @@ public class Calculator {
         System.out.println( (ch == '+') ? num1+num2 : num1 - num2 );
 
 
-
-
-
-
-
     }
 }
