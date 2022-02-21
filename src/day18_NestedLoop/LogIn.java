@@ -29,7 +29,7 @@ public class LogIn {
             }
         }
             if (!(u.equals("Cydeo") && p.equals("WoodenSpoon")) ){
-                System.out.println("Your account is locked, Please contact support team.");
+                System.err.println("Your account is locked, Please contact support team.");
             }
         }
 scan.close();
