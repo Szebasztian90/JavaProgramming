@@ -7,7 +7,8 @@ public class FrequencyOfWord {
 
         int frequency = 0;
 
-        for (int i = 0; i <= str.length()-4 ; i++) { // i: 1, 2, 3, 4, 5, 6, 7,
+        for (int i = 0; i < str.length()-3 ; i++) { // use -3 (always use the minus one extra because the word starts
+                                                    // from 0 to count
             String eachSub = str.substring ( i, i+4 );
             //System.out.println(eachSub);
 
