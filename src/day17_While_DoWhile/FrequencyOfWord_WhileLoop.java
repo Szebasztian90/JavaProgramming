@@ -17,5 +17,30 @@ public class FrequencyOfWord_WhileLoop {
         System.out.println(frequency);
 
 
+        System.out.println("---------------------------------------------");
+
+
+        String sentence = "cat cat cat cat dog dog dog cat cat";
+
+        sentence = sentence.toLowerCase();
+
+        int countCat = 0;
+
+        while(sentence.contains("cat")){
+            sentence = sentence.replaceFirst("cat", "");
+            countCat++;
+
+        }
+
+        System.out.println(countCat);
+
+
+
+
+
+
+
+
+
     }
 }
