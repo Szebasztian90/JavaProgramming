@@ -33,7 +33,7 @@ public class NestedLoopPractice {
         }
 
 
-
+scan.close();
 
 
 
