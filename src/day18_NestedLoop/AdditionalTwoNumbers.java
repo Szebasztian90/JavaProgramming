@@ -26,7 +26,7 @@ public class AdditionalTwoNumbers {
             }
 
             if(a.equals("no") ){
-                break;
+                break; //exits the outer loop
             }
         }
 
