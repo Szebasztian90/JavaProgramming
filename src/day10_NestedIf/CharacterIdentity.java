@@ -21,7 +21,8 @@ public class CharacterIdentity {
 
 
         /*
-4. Create a class called Character Identity, and write a program that can identify if the given character is a digit or Alphabetic Character(A~Z or a~Z) or a special character
+4. Create a class called Character Identity, and write a program that can identify if the given character is a digit
+or Alphabetic Character(A~Z or a~Z) or a special character
 		Ex:
 			ch = '@'
 		output:
