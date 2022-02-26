@@ -1,4 +1,4 @@
-package day11_Switch_Scanner;
+package day06_PrimitiveTypeCastings.day11_Switch_Scanner;
 
 
 
