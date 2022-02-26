@@ -1,4 +1,4 @@
-package day06_PrimitiveTypeCastings.day11_Switch_Scanner;
+package day11_Switch_Scanner;
 
 public class SalaryCalculator {
     public static void main(String[] args) {
