@@ -7,7 +7,7 @@ public class ArraysIntro {
 
         // create a variable that's capable enough to contain 5 names
 
-        String  [ ] myGroup = new String [5]; // 0 ~ 4
+        String  [ ] myGroup = new String [5]; // 0 ~ 4 If you don't know the data but, you know the number
         myGroup [0] = "Gunay";
         myGroup [1] = "Neira";
         myGroup [2] = "Suat";
@@ -23,6 +23,8 @@ public class ArraysIntro {
         System.out.println("-------------------------------------------");
 
         String [] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+                            // !!if you do know the data, starts from index 0 and use (-1)
+
         //index:              0         1            2          3           4           5         6
 
         System.out.println( Arrays.toString(days));
@@ -35,6 +37,8 @@ public class ArraysIntro {
         }
 
         System.out.println( days[number -1] );
+
+
 
 
 
