@@ -25,6 +25,16 @@ public class ArraysUtility2 {
 
         System.out.println(Arrays.toString(ch2));
 
+        int[] scores = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+
+        int [] result = Arrays.copyOfRange(scores,3, 7+1 );
+
+        System.out.println(Arrays.toString(result));
+
+        int[] result2 = Arrays.copyOfRange(scores, 3, scores.length); // can use the length it's the same with 9+1
+                                                                           // we can use it because it goes to the end
+
+
 
 
     }
