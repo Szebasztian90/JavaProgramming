@@ -29,7 +29,7 @@ public class ArrayPractice2 {
 
         char [] letters2 = new char[26];
 
-        for (char i = 'Z', j=0; i >= 'A' && j < letters2.length; i--, j++) {
+        for (char i = 'Z', j=0; j < letters2.length; i--, j++) {
             letters2[j] = i;
 
         }
