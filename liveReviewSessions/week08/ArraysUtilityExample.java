@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArraysUtilityExample {
     public static void main(String[] args) {
 
-        int [] nums = {5, 10, 4, 1000};
+        int [] nums = {5, 10, 4, 35, 1000};
         
         // Arrays utility class created by Java developers, and it has some useful methods that we can use, such as sort
 
@@ -28,6 +28,15 @@ public class ArraysUtilityExample {
 
         nums[0] = 5000;
         System.out.println(Arrays.toString(numsThree));
+
+        // copy of method
+
+        int[] numsFour = Arrays.copyOf(nums,nums.length);
+
+        nums[0] = 3000;
+
+        System.out.println(Arrays.toString(numsFour));
+
 
 
     }
