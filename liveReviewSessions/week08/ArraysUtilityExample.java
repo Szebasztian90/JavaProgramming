@@ -5,14 +5,14 @@ import java.util.Arrays;
 public class ArraysUtilityExample {
     public static void main(String[] args) {
 
-        int [] nums = {5, 10, 4, 35, 1000};
+        int [] nums = {5, 10, 4, 1000};
         
         // Arrays utility class created by Java developers, and it has some useful methods that we can use, such as sort
 
         Arrays.sort(nums); // sorting your elements from smaller to larger
         System.out.println("Arrays.toString(nums) = " + Arrays.toString(nums));
 
-        int [] numsTwo = {4, 5, 10, 1000};
+        int [] numsTwo = {4, 5, 10, 35, 1000};
 
         int [] numsThree = nums; // creating a new reference for the same object
 
