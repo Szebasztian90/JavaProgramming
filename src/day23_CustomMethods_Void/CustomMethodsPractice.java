@@ -9,6 +9,10 @@ public class CustomMethodsPractice {
         System.out.println("-----------------------------");
 
         helloCydeo5Times();
+
+        System.out.println("----------------------------");
+
+        evenNumbers();
     }
 
     // create a function that can print hello word 5 times ===> helloWorld5Times()
@@ -30,4 +34,12 @@ public class CustomMethodsPractice {
         }
     }
 
+    // create a function that can print all the even numbers from 1~10
+    public static void evenNumbers(){
+
+        for (int i = 2; i < 11; i+=2) {
+            System.out.print(i + " ");
+        }
+
+    }
 }
