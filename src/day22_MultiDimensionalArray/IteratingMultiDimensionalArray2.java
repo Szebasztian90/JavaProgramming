@@ -28,8 +28,16 @@ public class IteratingMultiDimensionalArray2 {
             System.out.println();
             }
 
-            }
-        }
+        System.out.println("------------------------------------------------");
+
+
+
+
+
+
+    }
+
+}
 
 
 
