@@ -57,7 +57,7 @@ public class StringMethods5 {
 
         boolean r3 = sentence.contains("java") || sentence.contains("Java"); // jAvA
 
-        System.out.println(r3); // false
+        System.out.println(r3); // true
 
 
         System.out.println("------------------------------");
