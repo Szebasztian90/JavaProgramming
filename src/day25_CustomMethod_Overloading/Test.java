@@ -18,6 +18,28 @@ public class Test {
 
         System.out.println(reverse);
 
+        System.out.println("---------------------------------------");
+
+        String word = "Civic";
+
+        boolean palindrome = StringUtility.isPalindrome(word);
+
+        System.out.println("palindrome = " + palindrome);
+
+        System.out.println("------------------------------------------");
+
+        String [] names = {"Anna", "Java", "Python", "racecar", "Mom", "Cydeo"};
+
+        int count = 0;
+
+       for (String each : names){
+           if(StringUtility.isPalindrome(each)){
+               count++;
+           }
+       }
+        System.out.println(count);
+
+        System.out.println("--------------------------------------------");
 
 
     }
