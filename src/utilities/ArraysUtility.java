@@ -71,7 +71,8 @@ public class ArraysUtility {
         boolean result = false;
 
         for (int each : array) {
-            if(each == element){
+            if(each == element){ // if any arrays' element is matching with the given element, it means that
+                                // the given element is contained in the array
                 result = true;
             }
         }
@@ -104,6 +105,35 @@ public class ArraysUtility {
         }
         return result;
     }
+
+
+    //check if the given STRING is contained in the given array. returns boolean.
+    public static boolean contains(String[] array, String element){
+
+        boolean result = false;
+
+        for (String each : array) {
+            if(each.equals(element)){
+                result = true;
+            }
+        }
+        return result;
+    }
+
+
+
+    //merger
+    //addElements
+    //removeElements
+    //reverse
+    //clear
+    //frequency OfElement
+    //uniqueElement
+    //removeDuplicates
+
+
+
+
 
 }
 
