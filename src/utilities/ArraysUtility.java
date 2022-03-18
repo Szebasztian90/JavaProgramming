@@ -235,17 +235,259 @@ public class ArraysUtility {
     }
 
 
+    // returns the unique elements of the array as a new array
+    public static int[] uniqueElements(int[] array){
+
+        int [] result = {};
+
+        for (int each : array) {
+
+            if(ArraysUtility.frequencyOfElement(array, each) == 1 ){ // if the frequency is one, the element is unique
+                result = ArraysUtility.addElement(result, each);
+            }
+        }
+        return result;
+    }
+
+
+    // returns the unique elements of the array as a new array
+    public static double[] uniqueElements(double[] array){
+
+        double [] result = {};
+
+        for (double each : array) {
+
+            if(ArraysUtility.frequencyOfElement(array, each) == 1 ){
+                result = ArraysUtility.addElement(result, each);
+            }
+        }
+        return result;
+    }
+
+
+    // returns the unique elements of the array as a new array
+    public static char[] uniqueElements(char[] array){
+
+        char [] result = {};
+
+        for (char each : array) {
+
+            if(ArraysUtility.frequencyOfElement(array, each) == 1 ){
+                result = ArraysUtility.addElement(result, each);
+            }
+        }
+        return result;
+    }
+
+
+    // returns the unique elements of the array as a new array
+    public static String[] uniqueElements(String[] array){
+
+        String [] result = {};
+
+        for (String each : array) {
+
+            if(ArraysUtility.frequencyOfElement(array, each) == 1 ){
+                result = ArraysUtility.addElement(result, each);
+            }
+        }
+        return result;
+    }
+
+
+    // removes the index from the array, returns new array
+    public static int[] removeElement(int[] array, int index){
+
+        if(index <0 || index > array.length-1){
+            System.err.println("Invalid Index: " + index);
+            System.exit(0);
+        }
+
+        int[] result = new int[array.length-1];
+
+        int j =0;
+        for (int i = 0; i < array.length; i++) {
+            if(i == index){ //if the index of array is matching with the given index
+                continue; // skip
+            }
+            result[j++] = array[i];
+        }
+        return result;
+    }
+
+
+    // removes the index from the array, returns new array
+    public static double[] removeElement(double[] array, int index){
+
+        if(index <0 || index > array.length-1){
+            System.err.println("Invalid Index: " + index);
+            System.exit(0);
+        }
+
+        double[] result = new double[array.length-1];
+
+        int j =0;
+        for (int i = 0; i < array.length; i++) {
+            if(i == index){ //if the index of array is matching with the given index
+                continue; // skip
+            }
+            result[j++] = array[i];
+        }
+        return result;
+    }
+
+
+    // removes the index from the array, returns new array
+    public static char[] removeElement(char[] array, int index){
+
+        if(index <0 || index > array.length-1){
+            System.err.println("Invalid Index: " + index);
+            System.exit(0);
+        }
+
+        char[] result = new char[array.length-1];
+
+        int j =0;
+        for (int i = 0; i < array.length; i++) {
+            if(i == index){ //if the index of array is matching with the given index
+                continue; // skip
+            }
+            result[j++] = array[i];
+        }
+        return result;
+    }
+
+
+    // removes the index from the array, returns new array
+    public static String[] removeElement(String[] array, int index){
+
+        if(index <0 || index > array.length-1){
+            System.err.println("Invalid Index: " + index);
+            System.exit(0);
+        }
+
+        String[] result = new String[array.length-1];
+
+        int j =0;
+        for (int i = 0; i < array.length; i++) {
+            if(i == index){ //if the index of array is matching with the given index
+                continue; // skip
+            }
+            result[j++] = array[i];
+        }
+        return result;
+    }
+
+
+    // merge given two arrays and return the new array
+    public static int[] merge(int[] arr1, int[] arr2){
+
+        int[] result = {};
+
+        for (int each : arr1) {
+            result = ArraysUtility.addElement(result, each);
+        }
+        for (int each : arr2) {
+            result = ArraysUtility.addElement(result, each);
+        }
+        return result;
+    }
+
+
+    // merge given two arrays and return the new array
+    public static double[] merge(double[] arr1, double[] arr2){
+
+        double[] result = {};
+
+        for (double each : arr1) {
+            result = ArraysUtility.addElement(result, each);
+        }
+        for (double each : arr2) {
+            result = ArraysUtility.addElement(result, each);
+        }
+        return result;
+    }
+
+
+    // merge given two arrays and return the new array
+    public static char[] merge(char[] arr1, char[] arr2){
+
+        char[] result = {};
+
+        for (char each : arr1) {
+            result = ArraysUtility.addElement(result, each);
+        }
+        for (char each : arr2) {
+            result = ArraysUtility.addElement(result, each);
+        }
+        return result;
+    }
+
+
+    // merge given two arrays and return the new array
+    public static String[] merge(String[] arr1, String[] arr2){
+
+        String[] result = {};
+
+        for (String each : arr1) {
+            result = ArraysUtility.addElement(result, each);
+        }
+        for (String each : arr2) {
+            result = ArraysUtility.addElement(result, each);
+        }
+        return result;
+    }
+
+
+    //reverses the given array, returns a new array
+    public static int [] reverse(int[] array){
+
+        int[] result = new int[array.length];
+
+        for (int i = array.length - 1, j=0; i >= 0; i--, j++) {
+            result[j] = array[i];
+        }
+        return result;
+    }
+
+
+    //reverses the given array, returns a new array
+    public static double [] reverse(double[] array){
+
+        double[] result = new double[array.length];
+
+        for (int i = array.length - 1, j=0; i >= 0; i--, j++) {
+            result[j] = array[i];
+        }
+        return result;
+    }
+
+
+    //reverses the given array, returns a new array
+    public static char [] reverse(char[] array){
+
+        char[] result = new char[array.length];
+
+        for (int i = array.length - 1, j=0; i >= 0; i--, j++) {
+            result[j] = array[i];
+        }
+        return result;
+    }
+
+
+    //reverses the given array, returns a new array
+    public static String [] reverse(String[] array){
+
+        String[] result = new String[array.length];
+
+        for (int i = array.length - 1, j=0; i >= 0; i--, j++) {
+            result[j] = array[i];
+        }
+        return result;
+    }
 
 
 
-
-    //merger
-    //addElements
-    //removeElements
-    //reverse
-    //clear
-    //frequency OfElement
-    //uniqueElement
     //removeDuplicates
 
 
