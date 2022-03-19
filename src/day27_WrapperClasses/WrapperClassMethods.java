@@ -30,6 +30,65 @@ public class WrapperClassMethods {
         System.out.println("min2 = " + min2);
 
 
+        String s1 = "true";
+
+      boolean r1 = Boolean.parseBoolean(s1);
+
+        System.out.println(r1);
+
+        System.out.println("-----------------------------------------------------------");
+
+        String s2 = "123";
+       Integer x = Integer.valueOf(s2);//Integer
+       int y = Integer.valueOf(s2); //Integer
+
+        System.out.println(x);
+        System.out.println(y);
+
+        System.out.println("----------------------------------------------------------");
+
+        String s3 = "1.5";
+       Double z =  Double.valueOf(s3);
+
+        System.out.println(z);
+
+        System.out.println("-----------------------------------------------------------");
+
+
+        char ch1 = 'Q';
+
+        //isDigit()
+       boolean r2 = Character.isDigit(ch1);
+
+       //isDigit()
+       boolean r3 = Character.isLetter(ch1);
+
+       boolean r4 = !Character.isDigit(ch1);
+
+       //upperCase
+        boolean r5 = Character.isUpperCase(ch1);
+
+        //lowerCase
+        boolean r6 = Character.isLowerCase(ch1);
+
+        System.out.println(r2);
+        System.out.println(r3);
+        System.out.println(r4);
+        System.out.println(r5);
+        System.out.println(r6);
+
+        System.out.println("----------------------------------");
+
+       String s = "ab1cde2efg3hi4";
+
+        int sum = 0;
+
+        for (char each : s.toCharArray()) {
+            if(Character.isDigit(each)){
+                sum += Integer.parseInt("" + each);
+            }
+        }
+        System.out.println("sum = " + sum);
 
 
     }
