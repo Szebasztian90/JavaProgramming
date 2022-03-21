@@ -1,13 +1,25 @@
 package day01_JavaIntro;
 
-import utilities.StringUtility;
-
 public class Test {
     public static void main(String[] args) {
 
-        String str = "Wooden Spoon";
+int z =5;
 
-        StringUtility.printEachChar(str);
+for (int i=5; i>0;i--){
+
+    z+=i;
+
+
+        }
+        System.out.println(z);
+}
+
+
+
 
     }
-}
+
+
+
+
+
