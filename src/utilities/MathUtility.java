@@ -15,7 +15,7 @@ public class MathUtility {
 			2.4 Create a method that can return the subtraction of two decimals
 			2.5 Create a method that can return the multiplication of two integers
 			2.6 Create a method that can return the multiplication of two decimals
-			2.7 Create a method that passes two double parameters and return the division reslt
+			2.7 Create a method that passes two double parameters and return the division result
 			2.8 Create a method that can check if an integer is even number
 			2.9 Create a method that can check if an integer is odd number
 			2.10 Create a method that can return the maximum number between two integers
