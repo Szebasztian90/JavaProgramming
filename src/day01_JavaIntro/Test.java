@@ -3,15 +3,17 @@ package day01_JavaIntro;
 public class Test {
     public static void main(String[] args) {
 
-int z =5;
-
-for (int i=5; i>0;i--){
-
-    z+=i;
-
-
-        }
-        System.out.println(z);
+int count = 0;
+for (int a=0; a<4; a++){
+    if(a==3)
+        continue;
+    for (int b= a+1; b<5; b++){
+        count++;
+        if(b==3)
+            break;
+    }
+}
+        System.out.println(count);
 }
 
 

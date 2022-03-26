@@ -1,6 +1,7 @@
 package day30_CustomClass;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class DogObjects {
 
@@ -44,8 +45,16 @@ public class DogObjects {
         System.out.println("-----------------------------------------");
 
         Dog[] dogs = {dog1, dog2, dog3, dog4, dog5};
-        ArrayList<Dog> femaleDogs = new ArrayList<>();
-        ArrayList<Dog> maleDogs = new ArrayList<>();
+        ArrayList<Dog> femaleDogs = new ArrayList<>(Arrays.asList(dogs));
+        femaleDogs.removeIf(p-> p.gender != 'F');
+        System.out.println(femaleDogs.size());
+
+
+        ArrayList<Dog> maleDogs = new ArrayList<>(Arrays.asList(dogs));
+        maleDogs.removeIf(p-> p.gender != 'M');
+        System.out.println(maleDogs.size());
+
+
 
 
 
