@@ -54,6 +54,8 @@ public class A02_DistinctNumbers {
         Collections.shuffle(list); //random shuffle
         System.out.println(list);
 
+
+
     }
 
 
