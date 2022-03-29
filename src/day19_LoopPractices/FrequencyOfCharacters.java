@@ -9,7 +9,7 @@ public class FrequencyOfCharacters {
 
         for (int j = 0; j < str.length(); j++) {
 
-            char ch = str.charAt(j); // finds each character from the string
+            char ch = str.charAt(j);  //finds each character from the string
             int count = 0;
 
             for (int i = 0; i < str.length(); i++) { // to find the frequency of each character
