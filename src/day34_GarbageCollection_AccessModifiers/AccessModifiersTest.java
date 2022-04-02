@@ -8,7 +8,8 @@ public class AccessModifiersTest {
      //System.out.println(AccessModifiers.privateData); -> privateData is not visible outside the AccessModifiers class
 
 
-
+        AccessModifiers.method1();
+        AccessModifiers.method2();
 
     }
 }
