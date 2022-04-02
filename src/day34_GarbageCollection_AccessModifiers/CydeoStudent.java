@@ -1,4 +1,4 @@
-package day34_GarbageCollection_accessMofifiers;
+package day34_GarbageCollection_AccessModifiers;
 
 public class CydeoStudent {
 

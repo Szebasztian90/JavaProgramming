@@ -1,4 +1,4 @@
-package day34_GarbageCollection_accessMofifiers;
+package day34_GarbageCollection_AccessModifiers;
 
 public class StaticMembers { // this is the outer class. Outer class can never be static.
     // to be static needs to belong to a class.

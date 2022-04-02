@@ -1,7 +1,6 @@
-package day34_GarbageCollection_accessMofifiers;
+package day34_GarbageCollection_AccessModifiers;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Circle {
 

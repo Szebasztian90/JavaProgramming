@@ -1,6 +1,5 @@
-package day34_GarbageCollection_accessMofifiers;
-import  utilities.MathUtility;
-import static day34_GarbageCollection_accessMofifiers.Circle.*;
+package day34_GarbageCollection_AccessModifiers;
+import static day34_GarbageCollection_AccessModifiers.Circle.*;
 import static utilities.MathUtility.*;
 
 public class Test {
