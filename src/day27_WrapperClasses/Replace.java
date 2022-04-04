@@ -27,7 +27,7 @@ public class Replace {
     //
     public static int[] replace(int[] array, int index, int newElement){
 
-        if(index < 0 ||index> array.length-1){
+        if(index < 0 || index > array.length-1){
             System.err.println("Invalid Index: "+index);
             System.exit(0);
         }
