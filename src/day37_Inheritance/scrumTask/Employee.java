@@ -3,15 +3,15 @@ package day37_Inheritance.scrumTask;
 public class Employee extends Person{ //Employee IS A Person
 
     public String jobTitle;
-    public int ID;
+    public int id;
     public double salary;
     public String companyName;
 
 
-    public Employee(String name, int age, char gender, String jobTitle, int ID, double salary, String companyName) {
+    public Employee(String name, int age, char gender, String jobTitle, int id, double salary, String companyName) {
         super(name, age, gender);
         this.jobTitle = jobTitle;
-        this.ID = ID;
+        this.id = id;
         this.salary = salary;
         this.companyName = companyName;
     }
@@ -26,7 +26,7 @@ public class Employee extends Person{ //Employee IS A Person
                 ", age=" + age +
                 ", gender=" + gender +
                 "jobTitle='" + jobTitle + '\'' +
-                ", ID=" + ID +
+                ", ID=" + id +
                 ", salary=$" + salary +
                 ", companyName='" + companyName + '\'' +
 
