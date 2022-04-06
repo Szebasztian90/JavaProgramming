@@ -21,7 +21,7 @@ public class PhoneShop {
         System.out.println("--------------------------------------------------");
 
         samsung.call(911);
-        samsung.text(123456789);
+        samsung.text(1234566789);
         samsung.freeze();
 
         System.out.println("--------------------------------------------------");
