@@ -1,4 +1,4 @@
-package day26_CustomMethodPractice.day37_Inheritance.scrumTask;
+package day37_Inheritance.scrumTask;
 
 public class Developer extends Employee {
 

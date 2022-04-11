@@ -1,4 +1,4 @@
-package day26_CustomMethodPractice.day37_Inheritance.phoneTask;
+package day37_Inheritance.phoneTask;
 
 public class PhoneShop {
     public static void main(String[] args) {

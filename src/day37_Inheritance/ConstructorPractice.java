@@ -1,4 +1,4 @@
-package day26_CustomMethodPractice.day37_Inheritance;
+package day37_Inheritance;
 
 
     class A {

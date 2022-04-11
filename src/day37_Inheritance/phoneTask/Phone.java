@@ -1,4 +1,4 @@
-package day26_CustomMethodPractice.day37_Inheritance.phoneTask;
+package day37_Inheritance.phoneTask;
 
 public class Phone { // parent class: only contains the common feature of all the subclass
 
