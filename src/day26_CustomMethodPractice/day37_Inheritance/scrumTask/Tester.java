@@ -1,4 +1,4 @@
-package day37_Inheritance.scrumTask;
+package day26_CustomMethodPractice.day37_Inheritance.scrumTask;
 
 public class Tester extends Employee{ // Tester IS A Employee. Tester IS A Person
 

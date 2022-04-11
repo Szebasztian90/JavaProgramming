@@ -1,4 +1,4 @@
-package day37_Inheritance.phoneTask;
+package day26_CustomMethodPractice.day37_Inheritance.phoneTask;
 
 public class Nokia extends Phone {
 
